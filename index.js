@@ -38,7 +38,7 @@ app.post('/', async (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Chat GPT listening on port 3000");
+    console.log("Chat GPT listening on port"+port);
     
 })
 
